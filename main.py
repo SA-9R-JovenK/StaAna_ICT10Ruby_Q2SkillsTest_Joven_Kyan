@@ -20,7 +20,7 @@ classes = {
     "Medic": ("Support","Syringe Gun","Medi Gun","Bonesaw","Medic.jpg",
                 "Heal your injured teammates, support the frontlines, and uber them to the point."),
     "Sniper": ("Support","Sniper Rifle","SMG","Kukri","Sniper.jpg",
-               "Keep your battles far; pick off high-priorities with your snuper rifle and weaken their defenses."),
+               "Keep your battles far; pick off high-priority targets with your sniper rifle and weaken their defenses."),
     "Spy": ("Support","Revolver","Sapper","Knife","Spy.jpg",
             "Disguise as the enemy, sneak into the backline, kill off high targets, and vanish before they notice.")
 }
