@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css" />
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+
+    <title>TF Class Selection</title>
+</head>
+
+<body>
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-7 col-md-9">
+            <div class="card shadow-lg">
+                <div class="card-header bg-primary text-white text-center p-4">
+                    <h2><i class="bi bi-flask-fill"></i>Class Selection</h2>
+                    <p class="mb-0">Class Information Contractor</p>
+                </div>
+
+                <div class="card-body p-4">
+
+                    <div class="alert alert-info">
+                        <strong>Instructions:</strong><br>
+                        Enter the <b>Team Fortress 2 class</b> you want to identify.<br>
+                    </div>
+
+                    <form>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">
+                                <i class="bi bi-person-badge-fill"></i>Class
+                            </label>
+                            <input type="text"id="element_name"
+                                class="form-control form-control-lg"placeholder="Select Class...">
+                        </div>
+
+                        <div class="d-grid">
+                            <input type="button"py-click="element_checker"value="View Class Data"
+                            class="btn btn-success btn-lg">
+                        </div>
+
+                    </form>
+
+                    <hr>
+
+                    <h5 class="text-primary"><i class="bi bi-card-list"></i> Class Information</h5>
+
+                    <div id="result" class="rounded p-3 shadow-sm">Waiting for input...</div>
+                </div>
+
+                <div class="card-footer bg-light text-center footer-text">
+                    <i class="bi bi-lightbulb-fill text-warning"></i>
+                    Skills Test • 2nd Quarter • TF Industries
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<py-script src="main.py"></py-script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
